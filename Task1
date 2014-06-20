@@ -25,7 +25,7 @@ c_type2 = raw_input("What Currency are you converting to? GBP/EUR/USD/JPY: ")
 if c_type2 != "GBP" or "EUR" or "USD" or "JPY":
     "You entered %s" %(c_type1)
 else:
-    print c_type2, "is not a valid input"
+    print c_type2, "The value you gave was invalid"
     c_type2 = raw_input("Please enter a valid currency to convert to- GBP/EUR/USD/JPY: ")
 
 def rate(c_type1, c_type2):
